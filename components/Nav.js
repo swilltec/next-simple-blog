@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../styles/Nav.module.css";
+import navStyles from "../styles/Nav.module.css";
 
 function Nav() {
   return (
-    <div className={styles.nav}>
+    <div className={navStyles.nav}>
       <ul>
         <li>
           <Link href="/">Home</Link>
