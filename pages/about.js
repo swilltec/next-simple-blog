@@ -1,11 +1,11 @@
 import Head from 'next/head'
 
 
-export default function Home() {
+export default function About() {
   return (
     <div>
       <Head>
-        <title>WebDev News</title>
+        <title>About | Next Crash Course</title>
         <meta name="keywords" content="web, development, programming"/>
       </Head>
     About
